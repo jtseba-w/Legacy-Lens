@@ -1,0 +1,17 @@
+#topbar{
+    width: 100vw;
+    background-color: var(--background);
+    padding: 10px;
+    position: fixed;
+    box-shadow: 2px 2px 2px var(--primary);
+}
+#links tr{
+    overflow-x: auto;
+    padding: 10px;
+}
+#links td{
+    border-right: 1px solid black;
+}
+#links img{
+    width: 25px;
+}

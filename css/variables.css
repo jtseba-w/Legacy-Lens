@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{ /*colours*/
+    --primary:#2B2118;
+    --accent:#A6634B;
+    --background:#F7F0E5;
+
+    --primary-text-colour:#1E1E1E;
+    --accent-text-colour: var(--primary);
+
+    --background-overlay:rgba(0, 0, 0, 0.538);
+    --shadow-colour:rgba(0, 0, 0, 0.538);
+
+    
+    /*fonts*/
+    --primary-font:"Libre Baskerville";
+    --accent-font:"Roboto";
+
+    /*padding scale*/
+    --sp-1: 10px;
+    --sp-2: 15px;
+    --sp-3: 20px;
+    --sp-4: 25px;
+    --sp-5: 20px;
+
+}
+

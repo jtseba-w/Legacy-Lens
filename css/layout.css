@@ -1,0 +1,32 @@
+/*must haves*/
+body{overflow-x: hidden;    width: 100vw;}
+* { -webkit-tap-highlight-color: transparent;}
+
+
+/* container styling */
+.container{margin: 0 ;      padding: var(--sp-2);}
+.container-fixed-dimentions{overflow: hidden;       display: flex;      justify-content: center;}/* configure height or width in your own class/id  */
+
+.section{min-height:50vh;   padding: var(--sp-2);       margin: 0;      background-color: var(--primary);}
+
+/* display modes*/
+.flex-parent{display: flex;     flex-wrap: wrap;        justify-content: space-around;      align-items: center;}
+.flex-parent-default{display: flex;     flex-wrap: wrap;}
+.flex-parent-evenly{justify-content: space-evenly;}
+.flex-parent-between{justify-content: space-between;      align-items: center;}/* for prioritizing spacing content between*/
+
+.flex-anti-wrap{flex-wrap: nowrap;}
+
+.grid-parent{display: grid;     align-items: center;    justify-content: center;}
+/* spacing */
+/* mt > margin-top
+   mb > margin-bottom */
+.mt-1{margin-top: var(--sp-1);}
+.mt-2{margin-top: var(--sp-2);}
+
+.mb-1{margin-bottom: var(--sp-1);}
+.mb-2{margin-bottom: var(--sp-2);}
+
+.ml-2{margin-left: var(--sp-2);}
+
+.pt-10{padding-top: 100px;}/* special case used in text sections*/

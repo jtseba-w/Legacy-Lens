@@ -1,0 +1,36 @@
+
+#index-section-1{
+    padding: 60px 10px 30px;
+
+}
+#index-services div{
+    background-color: var(--background);
+    padding: 20px;
+    border-radius: 20px;
+    width: 90vw;
+    margin: 10px;
+    max-width: 180px;
+}
+#index-section-2{
+    background-color: var(--background);
+    padding: 10px 10px 50px;
+    padding-top: 10vh;
+}
+.index-section-3-list h2{
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+.index-section-3-list h2:hover{
+    background-color: var(--accent);
+    transition: .5s;
+}
+#index-section-3 p{
+    margin:10px 0px 30px;
+}
+#index-section-3{
+    padding: 50px 10px 20px;
+}
